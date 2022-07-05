@@ -1,0 +1,89 @@
+.c {
+  position: absolute;
+}
+
+.a {
+  width: 450px;
+  height: 300px;
+  background-color: rgb(217, 96, 96);
+  position: relative;
+}
+.a .b {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  right: 0;
+}
+
+.c {
+  width: 320px;
+  height: 100px;
+  background-color: rgb(0, 255, 8);
+  right: 100px;
+  top: 100px;
+}
+
+.d,
+.d2 {
+  width: 50px;
+  height: 100px;
+  background: blue;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.d .e,
+.d2 .e {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: aliceblue;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.d2 {
+  left: 250px;
+}
+
+.elty {
+  width: 450px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+}
+.elty__head {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  right: 0;
+}
+.elty__body {
+  position: absolute;
+  width: 320px;
+  width: 100;
+  background-color: rgb(0, 255, 8);
+  right: 100px;
+  top: 100px;
+}
+.elty__paws {
+  height: 100px;
+  width: 50px;
+  background-color: rgb(234, 0, 255);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.elty__paws--run {
+  transform: rotate(-45deg);
+  left: 300px;
+}/*# sourceMappingURL=style.css.map */
